@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ETW-TD-4Vw">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Native-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Native" id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgP-dc-NAU">
+                                <rect key="frame" x="71" y="433" width="251" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="251" id="C5c-BC-zHD"/>
+                                    <constraint firstAttribute="height" constant="55" id="rms-BF-Fng"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Navigate to React Native view"/>
+                                <connections>
+                                    <segue destination="QVP-q8-wcx" kind="show" id="ff6-cb-Ajj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This view is native" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxo-km-aXP">
+                                <rect key="frame" x="127.66666666666669" y="404" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rxo-km-aXP" firstAttribute="centerX" secondItem="vgP-dc-NAU" secondAttribute="centerX" id="AVt-as-qbf"/>
+                            <constraint firstItem="vgP-dc-NAU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="CEh-bs-z3J"/>
+                            <constraint firstItem="vgP-dc-NAU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="WTC-Gy-bZ8"/>
+                            <constraint firstItem="vgP-dc-NAU" firstAttribute="top" secondItem="rxo-km-aXP" secondAttribute="bottom" constant="8" symbolic="YES" id="nsV-S8-phj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Native" id="IcI-LM-PKQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="583.96946564885491" y="-146.47887323943664"/>
+        </scene>
+        <!--React Native-->
+        <scene sceneID="rPI-no-RDG">
+            <objects>
+                <viewController title="React Native" id="QVP-q8-wcx" customClass="ReactNativeViewController" customModule="Brownfiled_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vuW-V1-hcW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="RPv-K6-KHO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="React Native" id="V97-kX-g5f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hqc-qT-1bh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1427" y="-146"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HWj-3g-bUW">
+            <objects>
+                <navigationController id="ETW-TD-4Vw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hwu-n5-8D5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dt8-hl-4YK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1BS-10-v8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297" y="-146"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
