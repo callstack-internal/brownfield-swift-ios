@@ -13,10 +13,13 @@
 		4361B08429716F4D00FCD778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4361B08229716F4D00FCD778 /* Main.storyboard */; };
 		4361B08629716F4F00FCD778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4361B08529716F4F00FCD778 /* Assets.xcassets */; };
 		4361B08929716F4F00FCD778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4361B08729716F4F00FCD778 /* LaunchScreen.storyboard */; };
+		ED3F903558E9F9E04C291AEF /* libPods-Brownfiled-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CF3D9B9C17BBC12AC00768 /* libPods-Brownfiled-Swift.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4361B07929716F4D00FCD778 /* Brownfiled Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brownfiled Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2599C36FD1228A88DC5A73BD /* Pods-Brownfiled Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brownfiled Swift.release.xcconfig"; path = "Target Support Files/Pods-Brownfiled Swift/Pods-Brownfiled Swift.release.xcconfig"; sourceTree = "<group>"; };
+		28CF3D9B9C17BBC12AC00768 /* libPods-Brownfiled-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Brownfiled-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4361B07929716F4D00FCD778 /* Brownfiled-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brownfiled-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4361B07C29716F4D00FCD778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4361B07E29716F4D00FCD778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4361B08029716F4D00FCD778 /* ReactNativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,10 @@
 		4361B08529716F4F00FCD778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4361B08829716F4F00FCD778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4361B08A29716F4F00FCD778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4361B090297187AC00FCD778 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		51D96815AD8C80B967186349 /* Pods-Brownfiled Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brownfiled Swift.debug.xcconfig"; path = "Target Support Files/Pods-Brownfiled Swift/Pods-Brownfiled Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		AF79CB86A0B379E8D5CB9F7B /* Pods-Brownfiled-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brownfiled-Swift.release.xcconfig"; path = "Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		E093F5FC1C0F3FC79553DA99 /* Pods-Brownfiled-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Brownfiled-Swift.debug.xcconfig"; path = "Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED3F903558E9F9E04C291AEF /* libPods-Brownfiled-Swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,20 +48,22 @@
 		4361B07029716F4C00FCD778 = {
 			isa = PBXGroup;
 			children = (
-				4361B07B29716F4D00FCD778 /* Brownfiled Swift */,
+				4361B07B29716F4D00FCD778 /* Brownfiled-Swift */,
 				4361B07A29716F4D00FCD778 /* Products */,
+				F1EEAC97C13A6C21BAABD0EB /* Pods */,
+				FDB3D3A99E51BFC7AFB42010 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		4361B07A29716F4D00FCD778 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4361B07929716F4D00FCD778 /* Brownfiled Swift.app */,
+				4361B07929716F4D00FCD778 /* Brownfiled-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4361B07B29716F4D00FCD778 /* Brownfiled Swift */ = {
+		4361B07B29716F4D00FCD778 /* Brownfiled-Swift */ = {
 			isa = PBXGroup;
 			children = (
 				4361B07C29716F4D00FCD778 /* AppDelegate.swift */,
@@ -64,27 +74,50 @@
 				4361B08729716F4F00FCD778 /* LaunchScreen.storyboard */,
 				4361B08A29716F4F00FCD778 /* Info.plist */,
 			);
-			path = "Brownfiled Swift";
+			path = "Brownfiled-Swift";
+			sourceTree = "<group>";
+		};
+		F1EEAC97C13A6C21BAABD0EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D96815AD8C80B967186349 /* Pods-Brownfiled Swift.debug.xcconfig */,
+				2599C36FD1228A88DC5A73BD /* Pods-Brownfiled Swift.release.xcconfig */,
+				E093F5FC1C0F3FC79553DA99 /* Pods-Brownfiled-Swift.debug.xcconfig */,
+				AF79CB86A0B379E8D5CB9F7B /* Pods-Brownfiled-Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FDB3D3A99E51BFC7AFB42010 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4361B090297187AC00FCD778 /* JavaScriptCore.framework */,
+				28CF3D9B9C17BBC12AC00768 /* libPods-Brownfiled-Swift.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4361B07829716F4C00FCD778 /* Brownfiled Swift */ = {
+		4361B07829716F4C00FCD778 /* Brownfiled-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4361B08D29716F4F00FCD778 /* Build configuration list for PBXNativeTarget "Brownfiled Swift" */;
+			buildConfigurationList = 4361B08D29716F4F00FCD778 /* Build configuration list for PBXNativeTarget "Brownfiled-Swift" */;
 			buildPhases = (
+				1B9BB4FD71F368CEC10B1F9C /* [CP] Check Pods Manifest.lock */,
 				4361B07529716F4C00FCD778 /* Sources */,
 				4361B07629716F4C00FCD778 /* Frameworks */,
 				4361B07729716F4C00FCD778 /* Resources */,
+				58652358699402FC64AD1490 /* [CP] Embed Pods Frameworks */,
+				D24D5F5568B456B30AF8768F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Brownfiled Swift";
+			name = "Brownfiled-Swift";
 			productName = "Brownfiled Swift";
-			productReference = 4361B07929716F4D00FCD778 /* Brownfiled Swift.app */;
+			productReference = 4361B07929716F4D00FCD778 /* Brownfiled-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4361B07429716F4C00FCD778 /* Build configuration list for PBXProject "Brownfiled Swift" */;
+			buildConfigurationList = 4361B07429716F4C00FCD778 /* Build configuration list for PBXProject "Brownfiled-Swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4361B07829716F4C00FCD778 /* Brownfiled Swift */,
+				4361B07829716F4C00FCD778 /* Brownfiled-Swift */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +165,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B9BB4FD71F368CEC10B1F9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Brownfiled-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58652358699402FC64AD1490 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24D5F5568B456B30AF8768F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Brownfiled-Swift/Pods-Brownfiled-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4361B07529716F4C00FCD778 /* Sources */ = {
@@ -172,7 +264,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -202,6 +294,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -220,6 +313,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -232,7 +326,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -262,6 +356,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -273,6 +368,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -282,13 +378,14 @@
 		};
 		4361B08E29716F4F00FCD778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E093F5FC1C0F3FC79553DA99 /* Pods-Brownfiled-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Brownfiled Swift/Info.plist";
+				INFOPLIST_FILE = "Brownfiled-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,13 +406,14 @@
 		};
 		4361B08F29716F4F00FCD778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF79CB86A0B379E8D5CB9F7B /* Pods-Brownfiled-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Brownfiled Swift/Info.plist";
+				INFOPLIST_FILE = "Brownfiled-Swift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -337,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4361B07429716F4C00FCD778 /* Build configuration list for PBXProject "Brownfiled Swift" */ = {
+		4361B07429716F4C00FCD778 /* Build configuration list for PBXProject "Brownfiled-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4361B08B29716F4F00FCD778 /* Debug */,
@@ -346,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4361B08D29716F4F00FCD778 /* Build configuration list for PBXNativeTarget "Brownfiled Swift" */ = {
+		4361B08D29716F4F00FCD778 /* Build configuration list for PBXNativeTarget "Brownfiled-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4361B08E29716F4F00FCD778 /* Debug */,
